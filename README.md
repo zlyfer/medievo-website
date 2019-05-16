@@ -1,2 +1,3 @@
-# medievo-website
-Website for Medievo
+# Medievo Website
+
+Repository for [medievo.de](https://medievo.de).
