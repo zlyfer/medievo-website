@@ -1,17 +1,53 @@
 <html>
+
 	<head>
+	
 		<meta charset="utf-8" />
-		<title>Medievo - Homepage</title>
+		
+		<title lang="en"> Medievo - Homepage </title>
+		<title lang="de"> Medievo - Startseite </title>
+		<title lang="es"> Medievo - Inicio </title>
+		
 		<meta name="description" content="Medievo Homepage" />
+		
 		<!-- Custom Stylesheets -->
 		<link rel="stylesheet" href="./stylesheets/index.css" />
+		
 		<!-- Custom Javascripts -->
-		<script type="text/javascript" src="./javascripts/index.js"></script>
+		<script type="text/javascript" src="./javascripts/language.js"> </script>
+		
 	</head>
 
 	<body>
-		Welcome to the Homepage of Medievo!
-		<br />
-		In the future there will be more content here..
+	
+		<div id="header">
+		
+			<h1 id="title"> Medievo </h1>
+		
+			<div id="language">
+			
+				<span class="text-1" lang="en"> Language: </span>
+				<span class="text-1" lang="de"> Sprache: </span>
+				<span class="text-1" lang="es"> Idioma: </span>
+			
+				<select id="language-select" onchange="selectLanguage(this.options[this.selectedIndex].value)">
+			
+					<option value="en" selected> English </option>
+					<option value="de"> Deutsch </option>
+					<option value="es"> Español </option>
+				
+				</select>
+				
+			</div>
+			
+		</div>
+		
+		<hr />
+	
+		<p class="text-1" lang="en"> Welcome to the website of Medievo! <br /> Soon there will be more content here... </p>
+		<p class="text-1" lang="de"> Wilkommen auf der Webseite von Medievo! <br /> Bald werden hier mehr Inhalte zu sehen sein... </p>
+		<p class="text-1" lang="es"> ¡Bienvenido a la página del juego Medievo! <br /> Pronto verás más contenido aquí... </p>
+		
 	</body>
+	
 </html>

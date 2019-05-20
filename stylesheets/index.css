@@ -1,0 +1,49 @@
+[lang] {
+	
+	display: none;
+}
+
+[lang=en] {
+	
+	display: unset;
+}
+
+
+
+#header {
+	
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+
+#title {
+	
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	
+	width: 50%;
+	
+	font-family: Arial Black;
+	font-size: 20px;
+}
+
+#language {
+	
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	
+	margin-top: -24px;
+	
+	float: right;
+}
+
+
+
+.text-1 {
+	
+	font-family: Arial;
+	font-size: 12px;
+}
