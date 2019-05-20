@@ -4,7 +4,6 @@ window.addEventListener("load", function() {
 	
 	initLanguages();
 	document.getElementById("language-select").value = languages[checkLanguage(window.navigator.language)];
-	
 	selectLanguage(window.navigator.language);
 });
 
@@ -49,5 +48,20 @@ function selectLanguage(language) {
 			
 			node.style.display = "unset";
 		});
+		
+		switch(languages[index]) {
+			
+			case "en":
+				document.title="Medievo - Home";
+				$('meta[name="description"]').attr("Welcome to our website! We are a small team developing a medieval building game called Medievo. Enjoy your stay!", newDescription);
+				
+			case "de":
+			document.title="Medievo - Startseite";
+			$('meta[name="description"]').attr("Wir sind ein kleines Team und entwickeln ein Mittelalter-Aufbauspiel namens Medievo. Viel Spaß auf unserer Webseite!", newDescription);
+			
+			case "es":
+				document.title="Medievo - Inicio";
+				$('meta[name="description"]').attr("Somos un equipo pequeño y estamos desarrollando un juego de construcción medieval llamado Medievo. ¡Diviértete en nuestra web!", newDescription);
+		}
 	}
 }
