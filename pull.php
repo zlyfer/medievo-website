@@ -1,0 +1,1 @@
+<?php echo exec('git pull https://github.com/zlyfer/medievo-website.git'); ?>
