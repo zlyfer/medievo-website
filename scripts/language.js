@@ -53,19 +53,19 @@ function selectLanguage(language) {
 			
 			case "en":
 				document.title="Medievo - Home";
-				$('meta[name="description"]').attr("Welcome to our website! We are a small team developing a medieval building game called Medievo. Enjoy your stay!", newDescription);
+				$('meta[name="description"]').attr("We are a small team developing a medieval building game called Medievo. Welcome to our website!", newDescription);
 				
 			case "de":
 				document.title="Medievo - Startseite";
-				$('meta[name="description"]').attr("Wir sind ein kleines Team und entwickeln ein Mittelalter-Aufbauspiel namens Medievo. Viel Spaß auf unserer Webseite!", newDescription);
+				$('meta[name="description"]').attr("Wir sind ein kleines Team und entwickeln ein Mittelalter-Aufbauspiel namens Medievo. Willkommen auf unserer Webseite!", newDescription);
 			
 			case "es":
 				document.title="Medievo - Inicio";
-				$('meta[name="description"]').attr("Somos un equipo pequeño y estamos desarrollando un juego de construcción medieval llamado Medievo. ¡Diviértete en nuestra web!", newDescription);
+				$('meta[name="description"]').attr("Somos un equipo pequeño y estamos desarrollando un juego de construcción medieval llamado Medievo. ¡Bienvenidos a nuestra página web!", newDescription);
 				
 			case "ru":
 				document.title="Медиево - дома";
-				$('meta[name="description"]').attr("Мы небольшая команда, разрабатывающая средневековую строительную игру. Развлекайтесь на нашем сайте!", newDescription);
+				$('meta[name="description"]').attr("Мы небольшая команда, разрабатывающая средневековую строительную игру. Добро пожаловать на наш сайт!", newDescription);
 		}
 	}
 }
