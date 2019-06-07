@@ -1,3 +1,9 @@
+body {
+	
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
 #header {
 	
 	margin: 0px;
@@ -33,5 +39,12 @@
 .text-1 {
 	
 	font-family: Code New Roman;
+	font-size: 14px;
+}
+
+.text-1-bold {
+	
+	font-family: Code New Roman;
+	font-weight: bold;
 	font-size: 14px;
 }
