@@ -4,15 +4,15 @@
 	
 		<meta charset="utf-8" />
 		
-		<title> Medievo - Home </title>
+		<title id="title"> Medievo - Home </title>
 		
-		<meta name="description" content="We are a small team developing a medieval building game called Medievo. Welcome to our website!" />
+		<meta name="description" id="desc" content="We are a small team developing a medieval building game called Medievo. Welcome to our website!" />
 		
-		<!-- Custom Stylesheets -->
+		<!-- stylesheets -->
 		<link rel="stylesheet" href="./styles/fonts.css"/>
 		<link rel="stylesheet" href="./styles/index.css"/>
 		
-		<!-- Custom Javascripts -->
+		<!-- scripts -->
 		<script type="text/javascript" src="./scripts/language.js"> </script>
 		
 	</head>
@@ -25,12 +25,9 @@
 		
 			<div id="language">
 			
-				<span class="text-1" lang="en"> Language: </span>
-				<span class="text-1" lang="de"> Sprache: </span>
-				<span class="text-1" lang="es"> Idioma: </span>
-				<span class="text-1" lang="ru"> язык: </span>
+				<span class="text-1" id="text-ls"> Language: </span>
 			
-				<select id="language-select" onchange="selectLanguage(this.options[this.selectedIndex].value)">
+				<select id="language-select" onchange="localize(this.options[this.selectedIndex].value)">
 			
 					<option value="en" selected> English </option>
 					<option value="de"> Deutsch </option>
@@ -43,26 +40,17 @@
 			
 		</div>
 	
-		<span class="text-1" lang="en"> Welcome to the website of Medievo! <br /> Here you will find all the information about this project. </span>
-		<span class="text-1" lang="de"> Wilkommen auf der Webseite von Medievo! <br /> Hier findet ihr alle Informationen zu diesem Projekt. </span>
-		<span class="text-1" lang="es"> ¡Bienvenido a la página del juego Medievo! <br /> Aquí puedes encontrar toda la información sobre este proyecto. </span>
-		<span class="text-1" lang="ru"> Добро пожаловать на сайт Медиево! <br /> Здесь вы можете найти всю информацию об этом проекте. </span>
+		<span class="text-1" id="text-welcome"> Welcome to the website of Medievo! <br> Here you will find all the information about this project. </span>
 		
 		<hr>
 		
 		<div id="q-and-a">
 		
-			<span class="text-1-bold" lang="en"> What is Medievo? </span>
-			<span class="text-1-bold" lang="de"> Was ist Medievo? </span>
-			<span class="text-1-bold" lang="es"> ¿Qué es Medievo? </span>
-			<span class="text-1-bold" lang="ru"> Что Медиево? </span>
+			<span class="text-1-bold" id="text-q1"> What is Medievo? </span>
 			
 			<br>
 			
-			<span class="text-1" lang="en"> Medievo is a real-time-strategy and building game set in the Middle Ages, which we are <br> currently developing. Our goal is to publish it one day so that you will be able to play it. </span>
-			<span class="text-1" lang="de"> Medievo ist ein mittelalterliches Aufbaustrategiespiel, welches wir zurzeit entwickeln. <br> Unser Ziel ist, dass wir es eines Tages veröffentlichen und ihr es spielen könnt. </span>
-			<span class="text-1" lang="es"> Medievo es un juego de estrategia y construcción ambientada en la Edad Media, que actualmente <br> estamos desarrollando. Nuestro objetivo es lanzarlo algún día para que puedas jugarlo. </span>
-			<span class="text-1" lang="ru"> Медиево — средневековый градостроительный экономический симулятор реального времени, который <br> мы сейчас разрабатываем. Наша цель - однажды выпустить эту игру, чтобы вы могли в нее играть. </span>
+			<span class="text-1" id="text-a1"> Medievo is a real-time-strategy and building game set in the Middle Ages, which we are <br> currently developing. Our goal is to publish it one day so that you will be able to play it. </span>
 		
 		</div>
 		
