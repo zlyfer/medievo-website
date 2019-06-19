@@ -1,0 +1,71 @@
+[
+
+	{
+	
+		"language": "en",
+		
+		"data": {
+			
+			"title": "Medievo - Home",
+			"desc": "We are a small team developing a medieval building game called Medievo. Welcome to our website!",
+			
+			"text-ls": "Language:",
+			"text-welcome": "Welcome to the website of Medievo! <br> Here you can find all information about this project.",
+			"text-q1": "What is Medievo?",
+			"text-a1": "Medievo is a medieval building game we are currently developing. Our goal is to publish it one day so that you will be able to play it."
+        }
+        
+	},
+	
+	{
+	
+		"language": "de",
+		
+		"data": {
+			
+			"title": "Medievo - Startseite",
+			"desc": "Wir sind ein kleines Team und entwickeln ein Mittelalter-Aufbauspiel namens Medievo. Willkommen auf unserer Webseite!",
+			
+			"text-ls": "Sprache:",
+			"text-welcome": "Wilkommen auf der Webseite von Medievo! <br> Hier findet ihr alle Informationen zu diesem Projekt.",
+			"text-q1": "Was ist Medievo?",
+			"text-a1": "Medievo ist ein mittelalterliches Aufbaustrategiespiel, welches wir zurzeit entwickeln. <br> Unser Ziel ist, dass wir es eines Tages veröffentlichen und ihr es spielen könnt."
+        }
+        
+	},
+	
+	{
+	
+		"language": "es",
+		
+		"data": {
+			
+			"title": "Medievo - Inicio",
+			"desc": "Somos un equipo pequeño y estamos desarrollando un juego de construcción medieval llamado Medievo. ¡Bienvenidos a nuestra página web!",
+			
+			"text-ls": "Idioma:",
+			"text-welcome": "¡Bienvenido a la página del juego Medievo! <br> Aquí puedes encontrar toda la información sobre este proyecto.",
+			"text-q1": "¿Qué es Medievo?",
+			"text-a1": "Medievo es un juego de estrategia y construcción ambientada en la Edad Media, que actualmente <br> estamos desarrollando. Nuestro objetivo es lanzarlo algún día para que puedas jugarlo."
+        }
+        
+	},
+	
+	{
+	
+		"language": "ru",
+		
+		"data": {
+			
+			"title": "Медиево - дома",
+			"desc": "Мы небольшая команда, разрабатывающая средневековую строительную игру. Добро пожаловать на наш сайт!",
+			
+			"text-ls": "язык:",
+			"text-welcome": "Добро пожаловать на сайт Медиево! <br /> Здесь вы можете найти всю информацию об этом проекте.",
+			"text-q1": "Что Медиево?",
+			"text-a1": "Медиево — средневековый градостроительный экономический симулятор реального времени, который <br> мы сейчас разрабатываем. Наша цель - однажды выпустить эту игру, чтобы вы могли в нее играть."
+        }
+        
+    }
+    
+]
